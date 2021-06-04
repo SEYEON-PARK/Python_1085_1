@@ -15,5 +15,5 @@ x, y, w, h는 정수
 x, y, w, h=map(int, input().split()) # 사용자로부터 네 개의 정수 입력받기
 x2=w-x # x2에 w-x 값 대입
 y2=h-y
-a=[x, y, x2, y2]
-print(min(a))
+a=[x, y, x2, y2] # 리스트 a에 x, y, x2, y2 저장하기
+print(min(a)) # 리스트 a에 있는 값 중에서 가장 작은 값 출력하기
